@@ -10,7 +10,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://blogspace0843.netlify.app/'],
+    origin: ['https://blogspace0843.netlify.app/'],
     credentials: true
 }));
 app.use(express.json());
